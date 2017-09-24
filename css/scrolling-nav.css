@@ -19,7 +19,7 @@ section {
 }
 body {
   font-family: 'Special Elite', cursive;
-  background-image: url('paper_bg_1.jpg');
+  background-image: url('../paper_bg_1.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
