@@ -46,7 +46,7 @@ body {
   background-color: #ffffff !important;
 }
 .bg-paper{
-  background-image: url('../oldpaper.jpg');
+  background-image: url('../paper_bg_1.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
