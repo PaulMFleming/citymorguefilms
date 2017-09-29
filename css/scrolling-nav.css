@@ -19,9 +19,6 @@ section {
 }
 body {
   font-family: 'Special Elite', cursive;
-  background-image: url('../paper_bg_1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
 }
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
@@ -41,5 +38,13 @@ body {
 
 .bg-primary {
   background-color: #ffffff!important;
+  background-size: cover;
+}
+.bg-light {
+  background-color: #ffffff !important;
+}
+.bg-paper{
+  background-image: url('../coffeestain1.jpg');
+  background-attachment: fixed;
   background-size: cover;
 }
