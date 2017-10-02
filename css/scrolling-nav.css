@@ -35,7 +35,13 @@ body {
 }
 
 #logo {
-  height: 80vh;
+  width:60vw;
+  max-height:80vh;
+}
+header>div>img{
+  max-width:100%;
+  height:auto;
+  max-height:100%;
 }
 
 .bg-primary {
@@ -53,6 +59,10 @@ body {
 
 #current-text>h2{
   padding: 25px;
+}
+
+#lastmanposter {
+  width: 100%;
 }
 
 /*
@@ -150,3 +160,15 @@ ul.social-icons {
 .fa-google-plus:hover {
   background-color: #e25714;
 }
+
+
+@media (max-width: 768px) {
+  html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+  }
+  }
+
+  footer>a {
+    color: #fff;
+  }
