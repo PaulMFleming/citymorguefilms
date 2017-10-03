@@ -52,9 +52,9 @@ header>div>img{
   background-color: #ffffff !important;
 }
 .bg-paper{
-  background-image: url('../paper_bg_1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url('../oldbg-long.png');
+  background-attachment: scroll;
+  background-size: contain;
 }
 
 #current-text>h2{
